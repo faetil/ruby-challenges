@@ -28,4 +28,4 @@ puts "Hi #{name} How old are you?"
 age = gets.chomp.to_i
 year = 100 - age
 puts "Wow! You are #{age} years old. Congratulations!"
-puts "#{name} in #{year} you will be 100 years old!"
+puts "#{name} in #{year} years you will be 100 years old!"
