@@ -26,11 +26,15 @@
 
 # Print the final drinks order so you know what to make
 def order
-puts "What would you like to order? cocktail, water or beer?"
+
+water = 2
+beer = 6 
+cocktails = 3
+
+loop do 
+puts "what would you like to order? Cocktails, water or beer? Please input either [cocktails], [beer] or [water].
+To see the [backlog] type backlog, To see the [total] type total. To [exit] type exit"
 drinks = gets.chomp.downcase
-water = 1
-beer = 1 
-cocktails = 1
 
 case drinks
     when  "cocktails","c"
@@ -41,7 +45,16 @@ case drinks
         
     when "beer","b"
         beer += 1
-        
+    when "backlog"
+        puts "you have #{cocktails} cocktails to make\n" +"you have #{water} water to make\n"+"you have#{beer} beer to make\n"
+        puts "these are the current orders"
+    when "total"
+        puts "$#{cocktails*(22-8)}  cocktails profit \n" + "$#{water*(6-0.15).round}  water profit\n" +"$#{beer*(12-3)}  beer profit\n"
+    when "exit" #if exit is typed will exit the program
+        break
+    else 
+    puts "Invalid selection"#if something else is typed invalid selection will be displayed
+    end
     end
     # puts "your total order in order is #{drinks} "
 end
