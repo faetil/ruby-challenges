@@ -15,16 +15,26 @@
 # with your own examples and test corner cases.
 # 
 # Examples - what if both numbers are equal or are strings?
-
-def largest_number (number_1,number_2)
-  # Your code here
-  numbers = [Float(number_1), Float(number_2)]
+def largest_number(number_1,number_2)
+  numbers = (number_1),(number_2)
   return numbers.max
-rescue ArgumentError 
-  puts "error"
+  
+  end
 
-end
+  puts largest_number(100,50)
+  puts largest_number(1,20)
+  puts largest_number("hot", "cold")
 
-puts largest_number(100,50)
-puts largest_number(10, 10)
-puts largest_number("hot", "cold")
+
+# def largest_number (number_1,number_2)
+#   # Your code here
+#   numbers = [Float(number_1), Float(number_2)]
+#   return numbers.max
+# rescue ArgumentError 
+#   puts "error"
+
+# end
+
+# puts largest_number(100,50)
+# puts largest_number(10, 10)
+# puts largest_number("hot", "cold")

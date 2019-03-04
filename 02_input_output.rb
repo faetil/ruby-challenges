@@ -22,10 +22,18 @@
 # The program also outputs:
 # "Tom, in 60 years you will be 100 years old!"
 
-puts "what is your name?"
-name = gets.chomp
-puts "Hi #{name} How old are you?"
-age = gets.chomp.to_i
-year = 100 - age
-puts "Wow! You are #{age} years old. Congratulations!"
-puts "#{name} in #{year} years you will be 100 years old!"
+# puts "what is your name?"
+# name = gets.chomp
+# puts "Hi #{name} How old are you?"
+# age = gets.chomp.to_i
+# year = 100 - age
+# puts "Wow! You are #{age} years old. Congratulations!"
+# puts "#{name} in #{year} years you will be 100 years old!"
+
+puts "What is your name?"
+name = gets.chomp.downcase
+puts "Hi #{name}! How old are you?"
+age = gets.chomp.downcase
+puts "Wow! You are #{age} years old. congratulations"
+year = 100 - age.to_i
+puts "#{name}, in #{year} years you will be 100 years old!"
