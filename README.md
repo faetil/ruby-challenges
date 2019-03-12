@@ -28,6 +28,7 @@
 * 10_unique
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * 11_fizzbuzz
 * 12_count_words
@@ -35,3 +36,8 @@
 =======
 * 11_fizzbuzz
 >>>>>>> b366d1cd278c93875c0d8baa5a56af178b5d25b1
+=======
+* 11_fizzbuzz
+* 12_count_words
+* 13_fibonacci
+>>>>>>> eefe86a28a479a1d7de848168244e227a28595bc
