@@ -27,7 +27,7 @@
 # ...etc
 
 # Your code here
-number = 0
+
 if number % 15 == 0
     return "fizzbuzz"
     elsif number % 3 == 0
@@ -37,3 +37,4 @@ if number % 15 == 0
     else 
         puts number
     end
+end

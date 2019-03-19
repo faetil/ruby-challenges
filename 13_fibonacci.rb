@@ -24,9 +24,9 @@
 
 def nthFibonacci (n)
   # Your code here
-  if n < 2
-    n
+  if n <= 1
+   return n
   else 
-    nthFibonacci(n - 1) + nthFibonacci(n - 2)
+    return nthFibonacci(n - 1) + nthFibonacci(n - 2)
   end
 end 
