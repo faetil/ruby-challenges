@@ -19,7 +19,7 @@ def contains?(arr,val)
         if (arr[ind] == val)
             found=true
         else
-            return false
+            found =  false
         end
         # increment the index
         ind +1
