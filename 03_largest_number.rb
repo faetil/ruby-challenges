@@ -16,25 +16,14 @@
 # 
 # Examples - what if both numbers are equal or are strings?
 def largest_number(number_1,number_2)
-  numbers = (number_1),(number_2)
-  return numbers.max
-  
+ numbers = number_1, number_2
+ return numbers.max
   end
 
-  puts largest_number(100,50)
+  puts largest_number(100,100)
   puts largest_number(1,20)
   puts largest_number("hot", "cold")
 
 
-# def largest_number (number_1,number_2)
-#   # Your code here
-#   numbers = [Float(number_1), Float(number_2)]
-#   return numbers.max
-# rescue ArgumentError 
-#   puts "error"
 
-# end
 
-# puts largest_number(100,50)
-# puts largest_number(10, 10)
-# puts largest_number("hot", "cold")

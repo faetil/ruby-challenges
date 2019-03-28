@@ -12,13 +12,13 @@
 
 def sum_numbers (numbers)
   # Your code here
-  numbers.inject(:+)
+  numbers.inject(0, :+)
 
 end
 puts sum_numbers([1,1,1])
-#sum_numbers([5,2,100,0,10])
-#sum_numbers([55,23,183,0,29])
-#sum_numbers([1,2,3,4])
+puts sum_numbers([5,2,100,0,10])
+puts sum_numbers([55,23,183,0,29]) 
+puts sum_numbers([1,2,3,4])
 
 
 
