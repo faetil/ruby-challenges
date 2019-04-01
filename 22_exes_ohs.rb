@@ -36,7 +36,7 @@ def exes_and_ohs(input)
     # Your code goes here
     uniqarray = input.downcase.split('').uniq
   arr = input.downcase.split('')
-  return false if uniq_array.length != 2
+  return false if uniqarray.length != 2
   arr.count(uniqarray[0]) == arr.count(uniqarray[1]) ? true : false
    
 end
