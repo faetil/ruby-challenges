@@ -22,7 +22,7 @@ def max_min(num_string)
 #    num_string = num_string.
     num_string = num_string.split.map {|v| v.to_i}.sort
     # num_string.join
-   p num_string *' '
+   p num_string.join(' ')
    p "#{num_string.last} #{num_string.first}"
 
 # num_string = num_string.first 
