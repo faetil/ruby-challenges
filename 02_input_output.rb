@@ -1,14 +1,7 @@
 # Write a program that accepts someone's name and age, and responds
 # as shown here:
 
-print "What is your name?"
-name = gets.chomp
-puts "Hi #{name}! How old are you? "
 
-age = gets.chomp.to_i
-puts "Wow! you are #{age} years old. Congratulation"
-year = 100 - age
-puts "#{name} in #{year} years you will be 100"
 # Program is run and outputs:
 # "What is your name?"
 
@@ -31,5 +24,11 @@ puts "#{name} in #{year} years you will be 100"
 # "Tom, in 60 years you will be 100 years old!"
 
 
-
+puts "what is your name?"
+name = gets.chomp
+puts "Hi #{name}! How are old are you?"
+age = gets.chomp
+puts "Wow! you are #{age} years old. Congratulations!"
+years = 100 - age.to_i
+puts "#{name}, in #{years} years you will be 100 years old"
 

@@ -18,8 +18,8 @@
 def largest_number(number_1,number_2)
  numbers = number_1, number_2
  return numbers.max
-  end
 
+end
   puts largest_number(100,100)
   puts largest_number(1,20)
   puts largest_number("hot", "cold")

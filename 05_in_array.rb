@@ -21,11 +21,13 @@ def in_array (needle, haystack)
 
   
 
-   (haystack.include? needle) ? (return true): (return false)
+    
+     haystack.include?(needle)
+   
+   end
    
   
 #( puts "you are false") 
-end
 
 # haystack = ["hi", "howdy", "hello"]
 #   puts "enter stuff"

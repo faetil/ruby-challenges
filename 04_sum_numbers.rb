@@ -12,7 +12,8 @@
 
 def sum_numbers (numbers)
   # Your code here
-  numbers.inject(0, :+)
+ numbers + numbers
+ return numbers.sum
 
 end
 puts sum_numbers([1,1,1])

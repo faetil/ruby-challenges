@@ -13,12 +13,13 @@
  def count_letters (string)
   result = Hash.new(0) # You'll need an empty hash to get started!
   
-newarray = []
-  newarray = string.chars
-newarray.each do |letter|
+newarr = []
+newarr = string.chars
+newarr.each do |letter|
   result[letter] += 1
-end
 
   
+end
+
    return result # return the hash
  end
